@@ -1,10 +1,8 @@
-# pinchzoom_coronasdk
-Pinch, zoom, scroll and touch an image
+# easy multitouch pinch zoom corona labs sdk
+Pinch, zoom and scale something
 
-This simple code allows an image in Corona SDK to operate as multitouch and singletouch with the one function.
-Pinch and zoom at any point of the image, auto centres where you touched.
+This simple code allows for using multitouch to scale and so zoom in and out
 
-Use as single touch to scroll or create a hit spot (a hit is assumed as a touch that movesd less than x pixels)
+it is an easy to use version which compares the distances between two fingers on multitouch. if it gets bigger - you zoom in or the other way around
 
-An image is available in the issues section
-Change the width and height in code if you use a different image
+i didnt need all the functions of the master branch so created this use case
